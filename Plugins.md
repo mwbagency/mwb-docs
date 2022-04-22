@@ -6,7 +6,7 @@ The currently implemented MWB plugins are:
 - AdvancedForms
 - Analytics
 - Coreprint 
-- [CookieConsent](/mwb-plugins/cookie-consent)
+- [CookieConsent](Plugins/cookie-consent)
 - Iubenda
 - Leaflet
 - LoginPage
