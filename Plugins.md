@@ -3,5 +3,21 @@ Some functionality within the base theme is more likely to be disabled/enabled o
 These are enabled via the `mwb/plugins/list` filter.
 
 The currently implemented MWB plugins are:
+- AdvancedForms
+- Analytics
+- Coreprint 
 - [CookieConsent](/mwb-plugins/cookie-consent)
-- TODO - complete list
+- Iubenda
+- Leaflet
+- LoginPage
+- Modals
+- PostForms
+- RankMath
+- Share
+- Social
+- WooCommerce
+- WooCommerceNotices
+- WooCommerceSubscriptions
+- WooCommerceTracking
+- WooCommerceWishlist
+- Yoast
