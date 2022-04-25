@@ -36,6 +36,10 @@ Then save your changes, make a note of the cookie policy ID in the embed code, a
 
 ## Not Iubenda
 TODO - instructions on how to setup our consent MWB Plugin
+1. Enable the `CookieConsent` MWB plugin within your theme
+2. Enter the policy url within the MWB plugin's settings (Settings > Cookie Consent) (see below)
+
+![CookieConsent MWB plugin settings](uploads/9db3a236d5f3bde5e5723d9bfa80e615/image.png)
 
 # Google Tag Manager
 Next we need to setup the triggers and tags for all the external services to run when they're supposed to.
