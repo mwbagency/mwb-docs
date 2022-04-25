@@ -10,7 +10,7 @@ Some functionality within the base theme is more likely to be disabled/enabled o
 - LoginPage
 - Modals
 - PostForms
-- RankMath
+- [RankMath](Plugins/RankMath)
 - Share
 - Social
 - WooCommerce
