@@ -1,7 +1,5 @@
 [Home](/)
 
-[Analytics, Consent & Legal](/Analytics,-Consent-&-Legal)
-
 [Plugins](/Plugins)
 - [AdvancedForms](Plugins/AdvancedForms)
 - [Analytics](Plugins/Analytics)
@@ -21,3 +19,5 @@
 - [WooCommerceTracking](Plugins/WooCommerceTracking) 
 - [WooCommerceWishlist](Plugins/WooCommerceWishlist) 
 - [Yoast](Plugins/Yoast)
+
+[Analytics, Consent & Legal](/Analytics,-Consent-&-Legal)
