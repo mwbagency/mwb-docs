@@ -3,7 +3,7 @@ When using Iubenda for it's privacy and cookie policy page context, this is how 
 ## Setup
 
 ### Get the Iubenda ID
-Within Iubenda, go to the "embed" code for the "Cookie Policy". You'll find the ID within the cookie policy link.
+Within [Iubenda](https://www.iubenda.com/), after you've setup the site, go to the "embed" code for the "Cookie Policy". You'll find the ID within the cookie policy link.
 
 ![Iubenda Cookie policy ID](uploads/45fa3e6a5f1ec1278fdc359c064a211c/image.png)
 
