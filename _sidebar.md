@@ -1,4 +1,4 @@
-[Home](/)
+[Home](/home)
 
 [Analytics, Consent & Legal](/Analytics,-Consent-&-Legal)
 
