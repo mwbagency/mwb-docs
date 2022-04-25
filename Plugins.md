@@ -6,7 +6,7 @@ Some functionality within the base theme is more likely to be disabled/enabled o
 - [Coreprint](Plugins/Coreprint)
 - [CookieConsent](Plugins/CookieConsent)
 - [Iubenda](Plugins/Iubenda)
-- Leaflet
+- [Leaflet](Plugins/Leaflet)
 - LoginPage
 - Modals
 - PostForms
