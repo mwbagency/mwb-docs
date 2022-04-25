@@ -2,7 +2,7 @@ Some functionality within the base theme is more likely to be disabled/enabled o
 
 ## List
 - AdvancedForms
-- Analytics
+- [Analytics](Plugins/Analytics)
 - Coreprint 
 - [CookieConsent](Plugins/CookieConsent)
 - [Iubenda](Plugins/Iubenda)
