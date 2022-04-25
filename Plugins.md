@@ -7,7 +7,7 @@ Some functionality within the base theme is more likely to be disabled/enabled o
 - [CookieConsent](Plugins/CookieConsent)
 - [Iubenda](Plugins/Iubenda)
 - [Leaflet](Plugins/Leaflet)
-- LoginPage
+- [LoginPage](Plugins/LoginPage)
 - Modals
 - PostForms
 - [RankMath](Plugins/RankMath)
