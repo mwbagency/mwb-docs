@@ -127,7 +127,7 @@ Here is an example of it's most basic usage, with a content block that has passe
 </div>
 ```
 
-For a full example, below is the context that was passed to the above twig file:
+FYI, below is the context that was passed to the above twig file:
 ```php
 $data['filtering'] = [
   'categories' => [
