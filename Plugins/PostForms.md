@@ -161,7 +161,7 @@ To give a live preview of how many results are shown out of the total, add an el
 ```twig
 <div id="posts-count-{{ block.id }}">
   {{ form_posts.count_html }}
-  </div>
+</div>
 ```
 
 This will display something like "10 posts found". If you wish for something else, use the following filter to adjust:
