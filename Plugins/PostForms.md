@@ -1,5 +1,7 @@
 A post listing system that pre-renders the page, and JS picks up the subsequent querying.
 
+[[_TOC_]]
+
 To setup a post form, there are two parts, the backend and frontend.
 
 ## Backend
@@ -218,7 +220,7 @@ When using a post form from a page that already has some indication of an existi
 1. Get the current query via `get_queried_object` (for PHP to inform from the initial page load) and via `$post_data` (for JavaScript to inform from future requests)
 1. Exclude these inputs from being passed into the url params (to keep the url neat and from having redundant information)
 
-### 1 - Pass this current query to the form
+#### 1 - Pass this current query to the form
 Gather the current taxonomy and term ID, and pass it through via the context.
 ```php
 $queried_object = get_queried_object();
@@ -235,7 +237,7 @@ Within the form element, render hidden fields for the taxonomy and term ID shown
 <input type="hidden" name="term_id" value="{{ filtering.term_id }}" />
 ```
 
-### 2 - Get the query
+#### 2 - Get the query
 Within the `mwb/plugin/post_forms/POST-FORM-ID-HERE/args` filter, get the current taxonomy and term ID, and alter the query with them. You'll have to account for the two methods this data will be passed to you. Initial server (with `get_queried_object`), and any subsequent JavaScript requests (via `$post_data`):
 ```php
 $queried_object = get_queried_object();
@@ -250,7 +252,7 @@ if ( $taxonomy && $term_id ) {
 }
 ```
 
-### 3 - Exclude these inputs from url params
+#### 3 - Exclude these inputs from url params
 When registering the post form via `mwb/plugin/post_forms/register`, pass the taxonomy and term ID field names to the `exclude_params` argument, e.g.:
 ```php
 add_filter( 'mwb/plugin/post_forms/register', function( array $post_forms = [] ): array {
