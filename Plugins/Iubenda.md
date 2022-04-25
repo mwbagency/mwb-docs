@@ -8,7 +8,7 @@ Within [Iubenda](https://www.iubenda.com/), after you've setup the site, go to t
 ![Iubenda Cookie policy ID](uploads/45fa3e6a5f1ec1278fdc359c064a211c/image.png)
 
 ### Enter the Iubenda ID into WordPress
-In WordPress admin, go to Settings > Iubenda (`/wp-admin/options-general.php?page=acf-options-iubenda`) and enter the cookie policy ID.
+In WordPress admin, go to "Settings" > "Iubenda" (`/wp-admin/options-general.php?page=acf-options-iubenda`) and enter the cookie policy ID.
 
 ![WP Admin Iubenda settings](uploads/26b70aeb1036944c7a06e881817a25de/image.png)
 
