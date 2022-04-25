@@ -2,8 +2,23 @@
 
 [Analytics, Consent & Legal](/Analytics,-Consent-&-Legal)
 
-<details><summary>[Plugins](/Plugins)</summary>
-[Home](/)
-[Home](/)
-[Home](/)
+[Plugins](/Plugins)
+- [AdvancedForms](Plugins/AdvancedForms)
+- [Analytics](Plugins/Analytics)
+- [Coreprint](Plugins/Coreprint)
+- [CookieConsent](Plugins/CookieConsent)
+- [Iubenda](Plugins/Iubenda)
+- [Leaflet](Plugins/Leaflet)
+- [LoginPage](Plugins/LoginPage)
+- [Modals](Plugins/Modals)
+- [PostForms](Plugins/PostForms)
+- [RankMath](Plugins/RankMath)
+- [Share](Plugins/Share)
+- [Social](Plugins/Social)
+- [WooCommerce](Plugins/WooCommerce) 
+- [WooCommerceNotices](Plugins/WooCommerceNotices) 
+- [WooCommerceSubscriptions](Plugins/WooCommerceSubscriptions) 
+- [WooCommerceTracking](Plugins/WooCommerceTracking) 
+- [WooCommerceWishlist](Plugins/WooCommerceWishlist) 
+- [Yoast](Plugins/Yoast)
 </details>
