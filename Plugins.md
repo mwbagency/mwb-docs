@@ -9,7 +9,7 @@ Some functionality within the base theme is more likely to be disabled/enabled o
 - [Leaflet](Plugins/Leaflet)
 - [LoginPage](Plugins/LoginPage)
 - [Modals](Plugins/Modals)
-- PostForms
+- [PostForms](Plugins/PostForms)
 - [RankMath](Plugins/RankMath)
 - Share
 - [Social](Plugins/Social)
