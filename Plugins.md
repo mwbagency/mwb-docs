@@ -13,11 +13,11 @@ Some functionality within the base theme is more likely to be disabled/enabled o
 - [RankMath](Plugins/RankMath)
 - [Share](Plugins/Share)
 - [Social](Plugins/Social)
-- WooCommerce
-- WooCommerceNotices
-- WooCommerceSubscriptions
-- WooCommerceTracking
-- WooCommerceWishlist
+- [WooCommerce](Plugins/WooCommerce) 
+- [WooCommerceNotices](Plugins/WooCommerceNotices) 
+- [WooCommerceSubscriptions](Plugins/WooCommerceSubscriptions) 
+- [WooCommerceTracking](Plugins/WooCommerceTracking) 
+- [WooCommerceWishlist](Plugins/WooCommerceWishlist) 
 - [Yoast](Plugins/Yoast)
 
 ## Usage
