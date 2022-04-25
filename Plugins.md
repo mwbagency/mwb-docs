@@ -12,7 +12,7 @@ Some functionality within the base theme is more likely to be disabled/enabled o
 - PostForms
 - [RankMath](Plugins/RankMath)
 - Share
-- Social
+- [Social](Plugins/Social)
 - WooCommerce
 - WooCommerceNotices
 - WooCommerceSubscriptions
