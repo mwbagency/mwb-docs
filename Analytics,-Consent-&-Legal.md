@@ -73,7 +73,7 @@ Create two tags with the following names.
 1. Two Firing triggers: All Pages (All Page Views) & Custom Event (Event name: `cookie_consent_given`) (This trigger fires on: "All Custom Events")
 1. One Exception trigger: Consent Not Given
 
-### 2. "Iubenda Cookie Solution" tag
+### 2. "Iubenda Cookie Solution" tag (if using Iubenda)
 1. Tag type: "Custom HTML"
 1. Paste the Iubenda Cookie Solution "Embed the banner" code into the HTML field
 1. One Firing trigger: All Pages (All Page Views)
