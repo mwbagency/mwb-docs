@@ -1,1 +1,2 @@
-Welcome
+- [Analytics, Consent & Legal](/Analytics,-Consent-&-Legal)
+- [Plugins](/Plugins)
