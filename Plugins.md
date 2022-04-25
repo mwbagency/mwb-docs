@@ -18,7 +18,7 @@ Some functionality within the base theme is more likely to be disabled/enabled o
 - WooCommerceSubscriptions
 - WooCommerceTracking
 - WooCommerceWishlist
-- Yoast
+- [Yoast](Plugins/Yoast)
 
 ## Usage
 These are enabled via the `mwb/plugins/list` filter. E.g.:
