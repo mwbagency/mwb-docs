@@ -1,3 +1,3 @@
 ## Functionality
-- Populates our breadcrumbs template automatically
+- Populates our breadcrumb template automatically
 - Excludes our 404 page (if used) from it's sitemap
