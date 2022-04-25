@@ -1,8 +1,6 @@
-Some functionality within the base theme is more likely to be disabled/enabled on a per-site basis. For these kinds of situations, you'll likely find them packaged up as an "MWB plugin". These are essentially a PHP class that gets instantiated and may also come with some styling, scripting and Twig templates.
+Some functionality within the base theme is more likely to be disabled/enabled on a per-site basis. For these situations you'll likely find them packaged up as an "MWB plugin". These are essentially a PHP class that gets instantiated and may also come with some styling, scripting and Twig templates too.
 
-These are enabled via the `mwb/plugins/list` filter.
-
-The currently implemented MWB plugins are:
+## List
 - AdvancedForms
 - Analytics
 - Coreprint 
@@ -21,3 +19,32 @@ The currently implemented MWB plugins are:
 - WooCommerceTracking
 - WooCommerceWishlist
 - Yoast
+
+## Usage
+These are enabled via the `mwb/plugins/list` filter. E.g.:
+
+```
+/**
+ * Alter enabled site plugins
+ * (make sure to only enable ones you need)
+ */
+add_filter( 'mwb/plugins/list', function( array $plugins ): array {
+    return [
+        'AdvancedForms',
+        'Analytics',
+        'CookieConsent',
+        'Iubenda',
+        'Leaflet',
+        'LoginPage',
+        'Modals',
+        'PostForms',
+        'RankMath',
+        'Share',
+        'Social',
+        'WooCommerce',
+        'WooCommerceNotices',
+        'WooCommerceTracking',
+        'WooCommerceSubscriptions',
+    ];
+}, 10, 1 );
+```
