@@ -8,7 +8,7 @@ Some functionality within the base theme is more likely to be disabled/enabled o
 - [Iubenda](Plugins/Iubenda)
 - [Leaflet](Plugins/Leaflet)
 - [LoginPage](Plugins/LoginPage)
-- Modals
+- [Modals](Plugins/Modals)
 - PostForms
 - [RankMath](Plugins/RankMath)
 - Share
