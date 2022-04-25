@@ -1,7 +1,5 @@
-[Home](/home)
-
+[Home](/)
 [Analytics, Consent & Legal](/Analytics,-Consent-&-Legal)
-
 [Plugins](/Plugins)
 - [AdvancedForms](Plugins/AdvancedForms)
 - [Analytics](Plugins/Analytics)
