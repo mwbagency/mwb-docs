@@ -1,5 +1,6 @@
-# Introduction
 When a site requires analytics (e.g. Google Analytics), we must make sure it only runs when and after the user gives consent (e.g. via Iubenda's accept cookies prompt).
+
+[[_TOC_]]
 
 # Initial Setup
 Firstly, we need to get/setup the relevant accounts:
@@ -35,7 +36,6 @@ Under "Callbacks > On consent given", enter exactly the following script:
 Then save your changes, make a note of the cookie policy ID in the embed code, and copy the whole "Embed the banner" code to your clipboard, you'll need it later.
 
 ## Not Iubenda
-TODO - instructions on how to setup our consent MWB Plugin
 1. Enable the `CookieConsent` MWB plugin within your theme
 2. Enter the policy url within the MWB plugin's settings (Settings > Cookie Consent) (see below)
 
