@@ -11,7 +11,7 @@ Some functionality within the base theme is more likely to be disabled/enabled o
 - [Modals](Plugins/Modals)
 - [PostForms](Plugins/PostForms)
 - [RankMath](Plugins/RankMath)
-- Share
+- [Share](Plugins/Share)
 - [Social](Plugins/Social)
 - WooCommerce
 - WooCommerceNotices
