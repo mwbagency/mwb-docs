@@ -30,7 +30,7 @@ Login to Iubenda, and setup the "cookie solution".
 When configuring the widget, you'll need to go to the "Advanced View".
 Under "Callbacks > On consent given", enter exactly the following script:
 
-`function() { window.dataLayer = window.dataLayer || []; window.dataLayer.push({'event': 'mwb_consent_given'}) }`
+`function() { window.dataLayer = window.dataLayer || []; window.dataLayer.push({'event': 'cookie_consent_given'}) }`
 
 Then save your changes, make a note of the cookie policy ID in the embed code, and copy the whole "Embed the banner" code to your clipboard, you'll need it later.
 
@@ -44,7 +44,7 @@ Next we need to setup the triggers and tags for all the external services to run
 Create two triggers with the following names.
 ### 1. "Consent Given" trigger
 1. Trigger type: Custom Event
-1. Event name: `mwb_consent_given`
+1. Event name: `cookie_consent_given`
 1. This trigger fires on: "All Custom Events"
 
 ### 2. "Consent Not Given" trigger
@@ -66,7 +66,7 @@ Create two tags with the following names.
 1. Tag type: "Google Analytics: Universal Analytics"
 1. Track type: "Pageview"
 1. Google Analytics settings: Select "new variable..." and enter your analytics ID.
-1. Two Firing triggers: All Pages (All Page Views) & Custom Event (Event name: `mwb_consent_given`) (This trigger fires on: "All Custom Events")
+1. Two Firing triggers: All Pages (All Page Views) & Custom Event (Event name: `cookie_consent_given`) (This trigger fires on: "All Custom Events")
 1. One Exception trigger: Consent Not Given
 
 ### 2. "Iubenda Cookie Solution" tag
