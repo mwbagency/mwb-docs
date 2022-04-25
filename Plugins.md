@@ -33,18 +33,11 @@ add_filter( 'mwb/plugins/list', function( array $plugins ): array {
         'AdvancedForms',
         'Analytics',
         'CookieConsent',
-        'Iubenda',
-        'Leaflet',
         'LoginPage',
-        'Modals',
         'PostForms',
         'RankMath',
         'Share',
         'Social',
-        'WooCommerce',
-        'WooCommerceNotices',
-        'WooCommerceTracking',
-        'WooCommerceSubscriptions',
     ];
 }, 10, 1 );
 ```
