@@ -29,9 +29,8 @@ To add new blocks to the existing list of choices, add them below in your `funct
  */
 add_filter( 'mwb/blocks/list', function( array $blocks ): array {
 	return array_merge( $blocks, [
-		'SITE/Timeline',
-		'SITE/Spotlight',
-		'SITE/StockistMap',
+		'SITE/WinemakerMap',
+		...
 	] );
 }, 10, 1 );
 ```
