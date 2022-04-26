@@ -15,4 +15,4 @@ Every block can be altered and new ones can be created too. You can also alter t
 To alter an existing block from the parent theme, simply copy the file to your child theme, this file will now be used instead. Although you can override just one of the two files for each block, it is recommended you override both in case the base theme later updates the block, and your version is now got half of the expected code. 
 
 ## Creating new blocks
-You can create new blocks by creating a new backend and frontend file, and then adding it to the list of registered blocks (using a filter for that block type). Go to the respective block type page above to find out more.
+You can create new blocks by creating a new "backend" and "frontend" file, and then adding it to their list of available blocks (using a filter for that block type). Go to the respective block type page above to find out more.
