@@ -1,2 +1,3 @@
-- [Plugins](/Plugins)
-- [Analytics, Consent & Legal](/Analytics,-Consent-&-Legal)
+- [Blocks](Blocks)
+- [Plugins](Plugins)
+- [Analytics, Consent & Legal](Analytics,-Consent-&-Legal)
