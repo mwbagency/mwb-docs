@@ -14,7 +14,7 @@ It'll be easiest to duplicate an existing global block's files for that type, li
 - ["Frontend file"](https://gitlab.com/visix/wordpress/themes/mwb-modules-base/-/blob/master/resources/views/block/NAVI/NAVI001.twig)
 
 ### Admin selection
-In the WordPress admin "appearance" menu, you can choose between different pre-built global blocks. Naturally you'll want to lock this down, as you'll likely be building a site with one bespoke global block of each type, and will want to prevent the admin from changing it.
+In the WordPress admin under "Appearance" > "Customise", you can choose between different pre-built global blocks. Naturally you'll want to lock this down, as you'll likely be building a site with one bespoke global block of each type, and will want to prevent the admin from changing it.
 
 To do this, find the respective filter for your global block type (see below) and return your one bespoke global block instead of the default list. E.g.
 ```
