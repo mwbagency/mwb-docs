@@ -17,4 +17,4 @@ To alter an existing block from the parent theme, simply copy the file to your c
 ## Creating new blocks
 You can create new blocks by creating a new "backend" and "frontend" file, and then adding it to their list of available blocks (using a filter for that block type). Go to the respective block type page above to find out more.
 
-For new blocks, they should go under "SITE", this is to separate them from the default blocks, and to keep it clear that they're bespoke. E.g. `SITE/WinemakersMap`. Designers will have named these blocks already for you, firstly so they know it's a custom block you'll need to build (so they're aware of the added timelines), and so you and others can refer to the same blocks later on more easily.
+For new blocks, they should go under "SITE", this is to separate them from the default blocks, and to keep it clear that they're bespoke (e.g. `SITE/WinemakersMap`). Designers will have named these blocks already for you, firstly so they know it's a custom block you'll need to build (so they're aware of the added timings), and so you and others can refer to the same blocks later on more easily.
