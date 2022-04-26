@@ -1,4 +1,4 @@
-[Home]()
+[Home](/)
 
 [Plugins](Plugins)
 - [AdvancedForms](Plugins/AdvancedForms)
@@ -20,4 +20,4 @@
 - [WooCommerceWishlist](Plugins/WooCommerceWishlist) 
 - [Yoast](Plugins/Yoast)
 
-[Analytics, Consent & Legal](/Analytics,-Consent-&-Legal)
+[Analytics, Consent & Legal](Analytics,-Consent-&-Legal)
