@@ -8,8 +8,8 @@ First, decide on a code/name, for organisational reasons, any site specific bloc
 
 Create the "backend" and "frontend" files for the global block, in the same manner as before, e.g.
 
-* "Backend file" `{{child-theme}}/includes/MWB/Block/NAVI/NAVIWinemakerMap.php`
-* "Frontend file" `{{child-theme}}/resources/views/block/NAVI/WinemakerMap.twig`
+* "Backend file" `{{child-theme}}/includes/MWB/Block/SITE/SITEWinemakerMap.php`
+* "Frontend file" `{{child-theme}}/resources/views/block/SITE/SITEWinemakerMap.twig`
 
 It'll be easiest to duplicate an existing content block's files for that type, like `HERO001`, e.g.:
 
