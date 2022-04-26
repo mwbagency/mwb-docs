@@ -1,8 +1,8 @@
 [Home](/)
 
 [Blocks](Blocks)
-- [Global blocks](Blocks/ Global blocks)
-- [Content blocks](Blocks/ Content blocks)
+- [Global blocks](Blocks/Global blocks)
+- [Content blocks](Blocks/Content blocks)
 
 [Plugins](Plugins)
 - [AdvancedForms](Plugins/AdvancedForms)
