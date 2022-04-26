@@ -1,5 +1,7 @@
 [Home](/)
 
+[Blocks](Blocks)
+
 [Plugins](Plugins)
 - [AdvancedForms](Plugins/AdvancedForms)
 - [Analytics](Plugins/Analytics)
