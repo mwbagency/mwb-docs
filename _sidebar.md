@@ -1,6 +1,6 @@
-[Home](/)
+[Home]()
 
-[Plugins](/Plugins)
+[Plugins](Plugins)
 - [AdvancedForms](Plugins/AdvancedForms)
 - [Analytics](Plugins/Analytics)
 - [Coreprint](Plugins/Coreprint)
