@@ -7,7 +7,7 @@
 When you need another colour to be available in the CMS, buttons, tailwind classes, etc. you need to inform the system of them in 3 locations.
 
 ### PHP
-Within `functions.php`, using the `mwb/theme/colours` filter, add each static colour like so:
+Within `functions.php`, using the `mwb/theme/colours` filter, add each static colour, see below. This will allow the system to present this colour within the CMS with the other colours, and also allow it to work out if it's light or dark (e.g. for our twig functions like `mwb_text_colour_class('new-colour')`).
 ```php
 add_filter( 'mwb/theme/colours', function( array $colours ): array {
   return array_merge( $colours, [
