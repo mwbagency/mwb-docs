@@ -221,7 +221,7 @@ When using a post form from a page that already has some indication of an existi
 1. Exclude these inputs from being passed into the url params (to keep the url neat and from having redundant information)
 
 #### 1 - Pass this current query to the form
-Gather the current taxonomy and term ID, and pass it through via the context.
+Gather the current taxonomy and term ID, and pass it through via the context through to where the post form's "form" element is.
 ```php
 $queried_object = get_queried_object();
 $filtering = [
@@ -231,7 +231,7 @@ $filtering = [
 return [ 'filtering' => $filtering ];
 ```
 
-Within the form element, render hidden fields for the taxonomy and term ID shown below. This will tell JavaScript to pass this information back to the server.
+When you're at the form element, render hidden fields for the taxonomy and term ID shown below within it. This will tell JavaScript to pass this information back to the server.
 ```twig
 <input type="hidden" name="taxonomy" value="{{ filtering.taxonomy }}" />
 <input type="hidden" name="term_id" value="{{ filtering.term_id }}" />
