@@ -84,7 +84,7 @@ Create two tags with the following names.
 1. Name: "Iubenda Cookie Solution"
 1. Tag type: "Custom HTML"
 1. Paste the Iubenda Cookie Solution "Embed the banner" code into the HTML field
-1. One Firing trigger: All Pages (All Page Views)
+1. One Firing trigger: "All Pages"
 2. Hit "Save"
 
 ### Screenshot
