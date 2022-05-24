@@ -47,12 +47,14 @@ Next we need to setup the triggers and tags for all the external services to run
 ## Triggers
 Create two triggers with the following names.
 ### 1. "Consent Given" trigger
+1. Name: "Consent Given"
 1. Trigger type: Custom Event
 1. Event name: `cookie_consent_given`
 1. This trigger fires on: "All Custom Events"
 1. Hit "Save"
 
 ### 2. "Consent Not Given" trigger
+1. Name: "Consent Not Given"
 1. Trigger type: Page View
 1. This trigger fires on: "Some Page Views"
 1. Select New variable
@@ -76,11 +78,14 @@ Create two tags with the following names.
 1. Google Analytics settings: Select "new variable...", call is "Google Analytics settings" and enter your analytics ID in the "Tracking ID" field
 1. Two Firing triggers: "All Pages" & "Consent Given"
 1. One Exception trigger: "Consent Not Given"
+2. Hit "Save"
 
 ### 2. "Iubenda Cookie Solution" tag (if using Iubenda)
+1. Name: "Iubenda Cookie Solution"
 1. Tag type: "Custom HTML"
 1. Paste the Iubenda Cookie Solution "Embed the banner" code into the HTML field
 1. One Firing trigger: All Pages (All Page Views)
+2. Hit "Save"
 
 ### Screenshot
 ![GTM tag setup](uploads/cd2f50ac06a9485a25c7d89987c2b161/analytics-setup-tags.png)
