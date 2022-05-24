@@ -94,7 +94,11 @@ Create two tags with the following names.
 Publish your changes
 
 # Finishing up
-Go to Analytics under WP admin, and enter the google tag manager ID.
+## To initialise Google Tag Manager
+Ensure the "[Analytics](/Plugins/Analytics)" MWB plugin is enabled, and [follow it's instructions](/Plugins/Analytics).
+
+## To render Iubenda's policy pages (if using Iubenda)
+Ensure the "[Iubenda](/Plugins/Iubenda)" MWB plugin is enabled, and [follow it's instructions](/Plugins/Iubenda).
 
 # Testing
 * Check the browser's console on the site for any errors
