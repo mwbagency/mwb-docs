@@ -70,9 +70,10 @@ Create two triggers with the following names.
 ## Tags
 Create two tags with the following names.
 ### 1. "Universal Analytics" tag
+1. Name: "Universal Analytics"
 1. Tag type: "Google Analytics: Universal Analytics"
 1. Track type: "Pageview"
-1. Google Analytics settings: Select "new variable..." and enter your analytics ID.
+1. Google Analytics settings: Select "new variable...", call is "Google Analytics settings" and enter your analytics ID in the "Tracking ID" field
 1. Two Firing triggers: All Pages (All Page Views) & Custom Event (Event name: `cookie_consent_given`) (This trigger fires on: "All Custom Events")
 1. One Exception trigger: Consent Not Given
 
