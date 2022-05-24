@@ -62,6 +62,7 @@ Create two triggers with the following names.
 1. Cookie name: `_iub_cs-XXXXXXXX` with your cookie policy id replacing the Xs
 1. Hit "Save"
 1. Cookie - Iubenda > does not contain > `"consent":true`
+1. Hit "Save"
 
 ### Screenshot
 ![GTM trigger setup](uploads/08af700ed99665b1529b8af8800775a0/analytics-setup-triggers.png)
