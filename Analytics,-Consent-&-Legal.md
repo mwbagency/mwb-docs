@@ -50,6 +50,7 @@ Create two triggers with the following names.
 1. Trigger type: Custom Event
 1. Event name: `cookie_consent_given`
 1. This trigger fires on: "All Custom Events"
+1. Hit "Save"
 
 ### 2. "Consent Not Given" trigger
 1. Trigger type: Page View
@@ -59,6 +60,7 @@ Create two triggers with the following names.
 1. Variable type: 1st-Party Cookie
 1. Retrieve your iubenda cookie policy ID from the cookie solution embed code on iubenda and selecting the number from the `https://www.iubenda.com/privacy-policy/XXXXXXXX/cookie-policy` url
 1. Cookie name: `_iub_cs-XXXXXXXX` with your cookie policy id replacing the Xs
+1. Hit "Save"
 1. Cookie - Iubenda > does not contain > `"consent":true`
 
 ### Screenshot
