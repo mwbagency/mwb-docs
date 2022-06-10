@@ -1,6 +1,7 @@
 Integrates our system with [Advanced Custom Fields](https://www.advancedcustomfields.com/).
 
 ## Functionality
+- Render a html wrapper for `textarea` inputs to allow for consistent styling
 - Add relative minimum and maximum dates to date and date time pickers
 
 ### Relative minimum and maximum dates to date and date time pickers
