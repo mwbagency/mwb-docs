@@ -5,6 +5,7 @@
 - [Content blocks](Blocks/Content blocks)
 
 [Plugins](Plugins)
+- [AdvancedCustomFields](Plugins/AdvancedCustomFields)
 - [AdvancedForms](Plugins/AdvancedForms)
 - [Analytics](Plugins/Analytics)
 - [Coreprint](Plugins/Coreprint)
