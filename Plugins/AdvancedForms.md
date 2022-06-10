@@ -6,7 +6,6 @@ Integrates our system with [Advanced Forms](https://advancedforms.github.io/).
 - Adds a field group to the entries to inform admin of which page the submission came from (see below)
 - Enables CMSable usage of placeholders (see below)
 - Extends our Form field helper to include submit button styling and label choices (see below)
-- Render a html wrapper for `textarea` inputs to allow for consistent styling
 - Force valid email addresses for notifications (i.e. converts 'test+john@gmail.com' to 'john@gmail.com')
 - Disable to view counter to prevent a database write every page load
 
