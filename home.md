@@ -34,20 +34,9 @@ $dark-colours: (
 ```
 
 ### Tailwind
-To generate utility classes for your colour (e.g. `bg-new-colour`), you need to add your colour to `tailwind.js`. 
+To generate utility classes for your colour (e.g. `bg-new-colour`), you need to add your colour to `tailwind.config.js`. 
 
-Firstly, get your child theme to use it's own tailwind config. You can do this by:
-* Making a file called `local.json` from `local.example.json`
-* Making a file called `tailwind.js` from the parent theme's version
-* Specify `./tailwind.js` in your `local.json` file under `tailwind`, like so:
-```js
-{
-  "proxy": "http://site-name.local/",
-  "tailwind": "./tailwind.js"
-}
-```
-
-Secondly, add your colour to `theme.extend.colors`, like so:
+Add your colour to `theme.extend.colors`, like so:
 
 ```js
 module.exports = {
