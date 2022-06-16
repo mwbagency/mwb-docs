@@ -1,3 +1,4 @@
+- [Setup](Setup)
 - [Blocks](Blocks)
 - [Components](Components)
 - [Plugins](Plugins)
