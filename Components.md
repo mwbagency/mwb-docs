@@ -1,6 +1,7 @@
 Components are features that aren't an MWB Plugin, but are significant within the system:
 - Buttons // TODO (altering, hooks, styling, etc.)
 - [Carousels](#carousels)
+- Fields // TODO (field helpers, customisations)
 - Fonts // TODO (local, Adobe, Google, etc.)
 - Icons // TODO (altering, overriding, etc.)
 
