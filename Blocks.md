@@ -1,8 +1,8 @@
 
 ## "Global" vs "content" blocks
 There are two types of blocks within the system:
-- [Global blocks](/Blocks/Global-Blocks) (i.e. Header, mobile menu and footer)
-- [Content blocks](/Blocks/Content-Blocks) (e.g. Hero, side by side, timeline)
+- [Global blocks](/Blocks/Global-Blocks) (i.e. header, mobile menu and footer)
+- [Content blocks](/Blocks/Content-Blocks) (e.g. hero, side by side, timeline)
 
 ## "Backend" and "frontend" files
 Each of these will have a:
