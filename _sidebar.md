@@ -1,7 +1,5 @@
 [Home](/)
 
-[Setup](Setup)
-
 [Blocks](Blocks)
 - [Global blocks](Blocks/Global blocks)
 - [Content blocks](Blocks/Content blocks)
