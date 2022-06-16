@@ -2,6 +2,17 @@
 - [Plugins](Plugins)
 - [Analytics, Consent & Legal](Analytics,-Consent-&-Legal)
 
+## Download
+* [Latest base theme zip](https://gitlab.com/visix/wordpress/themes/mwb-modules-base/-/jobs/artifacts/master/raw/mwb-modules-base.zip?job=build)
+
+## Setup
+### For a build with no customisations
+Install the base theme using the "latest base theme zip". This comes with everything enabled.
+
+### For a build with customisations
+1. Install the base theme using the "latest base theme zip" as the parent theme.
+2. Create a new repo using the ["MWB Modules Blank" repo](https://gitlab.com/visix/wordpress/themes/mwb-modules-blank/) and follow it's compilation instructions within it's [README.md](https://gitlab.com/visix/wordpress/themes/mwb-modules-blank/-/blob/master/README.md)
+
 ## Common use cases
 ### Adding a static colour
 When you need another colour to be available in the CMS, buttons, tailwind classes, etc. you need to inform the system of them in 3 locations.
