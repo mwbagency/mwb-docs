@@ -1,5 +1,6 @@
 - [Blocks](Blocks)
 - [Components](Components)
+- CPTs // TODO (overriding defaults, creating new, etc.)
 - [Plugins](Plugins)
 - [Analytics, Consent & Legal](Analytics,-Consent-&-Legal)
 
