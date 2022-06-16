@@ -1,4 +1,5 @@
 - [Blocks](Blocks)
+- [Components](Components)
 - [Plugins](Plugins)
 - [Analytics, Consent & Legal](Analytics,-Consent-&-Legal)
 
