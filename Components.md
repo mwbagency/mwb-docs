@@ -1,7 +1,8 @@
 Components are features that aren't an MWB Plugin, but are significant within the system:
-- Buttons // TODO
+- Buttons // TODO (altering, hooks, styling, etc.)
 - [Carousels](#carousels)
-- Fonts // TODO
+- Fonts // TODO (local, Adobe, Google, etc.)
+- Icons // TODO (altering, overriding, etc.)
 
 ## Carousels 
 Using [slick](https://kenwheeler.github.io/slick/) we can initialise a carousel just like before. However, in twig there is a difference of syntax, i.e.:
