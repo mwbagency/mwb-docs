@@ -6,8 +6,8 @@ There are two types of blocks within the system:
 
 ## "Backend" and "frontend" files
 Each of these will have a:
-- "Backend file" (e.g. [CONT001.php](https://gitlab.com/visix/wordpress/themes/mwb-modules-base/-/blob/master/includes/MWB/Block/CONT/CONT001.php)) will contain a description, ACF fields, data retrieval and passing of data to the "frontend file"
-- "Frontend file" (e.g. [CONT001.twig](https://gitlab.com/visix/wordpress/themes/mwb-modules-base/-/blob/master/resources/views/block/CONT/CONT001.twig)) is a [Twig](https://twig.symfony.com/) file, where all the hard work should've already have been done, and it just needs to render it all.
+- "Backend file" (e.g. [CONT001.php](https://gitlab.com/visix/wordpress/themes/mwb-modules-base/-/blob/master/includes/MWB/Block/CONT/CONT001.php)) will contain a description, ACF fields, data retrieval and passing of data to the "frontend file" (`/includes/MWB/Block/{{block-category}}/{{block-category}}{{block-name}}.php`)
+- "Frontend file" (e.g. [CONT001.twig](https://gitlab.com/visix/wordpress/themes/mwb-modules-base/-/blob/master/resources/views/block/CONT/CONT001.twig)) is a [Twig](https://twig.symfony.com/) file, where all the hard work should've already have been done, and it just needs to render it all (`/resources/views/block/{{block-category}}/{{block-category}}{{block-name}}.twig`)
 
 ## Changing existing blocks
 Every block can be altered and new ones can be created too. You can also alter the available selection of blocks so that you can restrict the choices just to what has been designed as an example.
