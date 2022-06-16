@@ -1,4 +1,4 @@
-Components are features that aren't an MWB Plugin, but are significant within the system.
+Components are features that aren't an MWB Plugin, but are significant within the system:
 - [Carousels](#carousels)
 
 ## Carousels 
