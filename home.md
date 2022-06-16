@@ -8,11 +8,42 @@
 
 ## Setup
 ### For a build with no customisations
-Install the base theme using the "latest base theme zip". This comes with everything enabled.
+Install via WP admin the base theme (using the [latest base theme zip](#download)) (this comes with everything enabled).
 
 ### For a build with customisations
-1. Install the base theme using the "latest base theme zip" as the parent theme.
-2. Create a new repo using the ["MWB Modules Blank" repo](https://gitlab.com/visix/wordpress/themes/mwb-modules-blank/) and follow it's compilation instructions within it's [README.md](https://gitlab.com/visix/wordpress/themes/mwb-modules-blank/-/blob/master/README.md)
+1. Install via WP admin the base theme (using the [latest base theme zip](#download)) as the parent theme.
+2. Create a new repo using the ["MWB Modules Blank" repo](https://gitlab.com/visix/wordpress/themes/mwb-modules-blank/) and follow the [compilation instructions](#compilation).
+
+## Compilation
+If you're making customisations to the system, once you've got the themes on your local machine, you'll want to setup a dev environment whilst being able to compile the assets (CSS and JS).
+
+### Browsersync
+
+If you want [browsersync](https://browsersync.io/) local development (automatic reloading, and previewing on other devices on your network):
+1. Using `local.example.json` as a template, create a file called `local.json`
+1. Add your local development url (e.g. likely provided by "Local by Flywheel") for the `proxy` value
+
+An example of contents for this file:
+
+```json
+{
+  "proxy": "http://mwb-agency.local/"
+}
+```
+
+### Asset compilation
+
+#### Development
+1. Run `npm install` on the parent theme ([mwb-modules-base](https://gitlab.com/visix/wordpress/themes/mwb-modules-base))
+1. Run `npm install` on this child theme
+1. Run `npm run dev`
+1. Go to http://localhost:3000 (unless specified otherwise in the terminal / depending on your browsersync settings)
+
+#### Production
+When you're ready for production, run `npm run prod` to minify your JS and CSS, & also purge any unused CSS.
+
+#### Asset files
+You may notice files like app.XXXX.css & app.XXXX.js are generated in the `assets` directory. This is for cache busting, the theme uses the generated `assets/mix-manifest.json` file to find the latest assets automatically, so there's no longer a need to change the theme's version each time you update the styling/scripts.
 
 ## Common use cases
 ### Adding a static colour
