@@ -4,6 +4,8 @@
 - [Global blocks](Blocks/Global blocks)
 - [Content blocks](Blocks/Content blocks)
 
+[Components](Components)
+
 [Plugins](Plugins)
 - [AdvancedCustomFields](Plugins/AdvancedCustomFields)
 - [AdvancedForms](Plugins/AdvancedForms)
