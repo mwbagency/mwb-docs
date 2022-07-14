@@ -53,7 +53,7 @@ Create two triggers with the following names.
 1. This trigger fires on: "All Custom Events"
 1. Hit "Save"
 
-### 2. "Consent Not Given" trigger
+### 2. "Consent Not Given" trigger (if using Iubenda)
 1. Name: "Consent Not Given"
 1. Trigger type: Page View
 1. This trigger fires on: "Some Page Views"
