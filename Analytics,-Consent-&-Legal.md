@@ -77,7 +77,7 @@ Create two tags with the following names.
 1. Track type: "Pageview"
 1. Google Analytics settings: Select "new variable...", call is "Google Analytics settings" and enter your analytics ID in the "Tracking ID" field
 1. Two Firing triggers: "All Pages" & "Consent Given"
-1. One Exception trigger: "Consent Not Given"
+1. One Exception trigger: "Consent Not Given" (if using Iubenda)
 2. Hit "Save"
 
 ### 2. "Iubenda Cookie Solution" tag (if using Iubenda)
