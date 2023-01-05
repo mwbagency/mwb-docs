@@ -9,7 +9,7 @@
 Install the base theme by cloning the base theme repository and following the readme instructions.
 
 ### For a build with customisations
-1. Install the base theme by cloning the base theme repository and following the readme instructions.
+1. Install the base theme by cloning the base theme repository ([mwb-modules-base](https://gitlab.com/visix/wordpress/themes/mwb-modules-base)) and following the readme instructions.
 2. Create a new repo using the ["MWB Modules Blank" repo](https://gitlab.com/visix/wordpress/themes/mwb-modules-blank/) and follow the [compilation instructions](#compilation).
 
 ## Compilation
