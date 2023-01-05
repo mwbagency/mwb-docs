@@ -4,15 +4,12 @@
 - [Plugins](Plugins)
 - [Analytics, Consent & Legal](Analytics,-Consent-&-Legal)
 
-## Download
-* [Latest base theme zip](https://gitlab.com/visix/wordpress/themes/mwb-modules-base/-/jobs/artifacts/master/raw/mwb-modules-base.zip?job=build)
-
 ## Setup
 ### For a build with no customisations
-Install via WP admin the base theme (using the [latest base theme zip](#download)) (this comes with everything enabled).
+Install the base theme by cloning the base theme repository and following the readme instructions.
 
 ### For a build with customisations
-1. Install via WP admin the base theme (using the [latest base theme zip](#download)) as the parent theme.
+1. Install the base theme by cloning the base theme repository and following the readme instructions.
 2. Create a new repo using the ["MWB Modules Blank" repo](https://gitlab.com/visix/wordpress/themes/mwb-modules-blank/) and follow the [compilation instructions](#compilation).
 
 ## Compilation
