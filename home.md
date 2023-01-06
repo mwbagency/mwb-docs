@@ -30,7 +30,7 @@ An example of contents for this file:
 #### Development
 1. Run `npm install` on the parent theme ([mwb-modules-base](https://gitlab.com/visix/wordpress/themes/mwb-modules-base))
 1. Run `npm install` on this child theme
-1. Run `npm run dev`
+1. Run `npm run dev` (or `npm run watch` to use the file watcher)
 1. Go to http://localhost:3000 (unless specified otherwise in the terminal / depending on your browsersync settings)
 
 #### Production
@@ -59,14 +59,14 @@ Within `resources/scss/app.scss`, add the colour to either `$light-colours` or `
 ```scss
 $light-colours: (
   ...
-  'new-colour' => '#228B22',
+  'new-colour',
 );
 ```
 or
 ```scss
 $dark-colours: (
   ...
-  'new-colour' => '#228B22',
+  'new-colour',
 );
 ```
 
