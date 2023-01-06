@@ -1,6 +1,7 @@
 Integrates our system with [Advanced Forms](https://advancedforms.github.io/).
 
-**This plugin is now deprecated, and you should use [GravityForms](/Plugins/GravityForms) instead**
+**This plugin is now deprecated, and you should use [GravityForms](/Plugins/GravityForms) for new projects**
+**The below instructions can be used for legacy sites running Advanced Forms**
 
 ## Functionality
 - Hide forms from the block editor (to prevent submitting within the admin area)
