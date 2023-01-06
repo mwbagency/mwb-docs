@@ -6,11 +6,11 @@
 
 ## Setup
 ### For a build with no customisations
-Install the base theme by cloning the base theme repository and following the readme instructions.
+Install the base theme by cloning the latest tag of the base theme repository and following the readme instructions.
 
 ### For a build with customisations
-1. Install the base theme by cloning the base theme repository ([mwb-modules-base](https://gitlab.com/visix/wordpress/themes/mwb-modules-base)) and following the readme instructions.
-2. Create a new repo using the ["MWB Modules Blank" repo](https://gitlab.com/visix/wordpress/themes/mwb-modules-blank/) and follow the [compilation instructions](#compilation).
+1. Install the base theme by cloning the latest tag of the [MWB Modules Base repo](https://gitlab.com/visix/wordpress/themes/mwb-modules-base) and following the readme instructions.
+2. Create a new repo using the latest tag of the [MWB Modules Blank repo](https://gitlab.com/visix/wordpress/themes/mwb-modules-blank/) and follow the [compilation instructions](#compilation).
 
 ## Compilation
 If you're making customisations to the system, once you've got the themes on your local machine, you'll want to setup a dev environment whilst being able to compile the assets (CSS and JS).
