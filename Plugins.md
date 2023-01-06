@@ -2,7 +2,7 @@ Some functionality within the base theme is more likely to be disabled/enabled o
 
 ## Full list
 - [AdvancedCustomFields](Plugins/AdvancedCustomFields)
-- [AdvancedForms](Plugins/AdvancedForms)
+- [AdvancedForms](Plugins/AdvancedForms) (deprecated in favour of Gravity Forms for new projects)
 - [Analytics](Plugins/Analytics)
 - [Coreprint](Plugins/Coreprint)
 - [CookieConsent](Plugins/CookieConsent)
@@ -20,7 +20,7 @@ Some functionality within the base theme is more likely to be disabled/enabled o
 - [WooCommerceSubscriptions](Plugins/WooCommerceSubscriptions) 
 - [WooCommerceTracking](Plugins/WooCommerceTracking) 
 - [WooCommerceWishlist](Plugins/WooCommerceWishlist) 
-- [Yoast](Plugins/Yoast)
+- [Yoast](Plugins/Yoast) (note that we typically use Rank Math instead of Yoast in new projects)
 
 ## Usage
 These are enabled via the `mwb/plugins/list` filter. E.g.:
