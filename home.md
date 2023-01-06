@@ -5,10 +5,6 @@
 - [Analytics, Consent & Legal](Analytics,-Consent-&-Legal)
 
 ## Setup
-### For a build with no customisations
-Install the base theme by cloning the latest tag of the base theme repository and following the readme instructions.
-
-### For a build with customisations
 1. Install the base theme by cloning the latest tag of the [MWB Modules Base repo](https://gitlab.com/visix/wordpress/themes/mwb-modules-base) and following the readme instructions.
 2. Create a new repo using the latest tag of the [MWB Modules Blank repo](https://gitlab.com/visix/wordpress/themes/mwb-modules-blank/) and follow the [compilation instructions](#compilation).
 
