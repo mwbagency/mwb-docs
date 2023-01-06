@@ -1,5 +1,7 @@
 Integrates our system with [Advanced Forms](https://advancedforms.github.io/).
 
+**This plugin is now deprecated, and you should use [GravityForms](/wikis/Plugins/GravityForms) instead**
+
 ## Functionality
 - Hide forms from the block editor (to prevent submitting within the admin area)
 - Adds "auto-download" functionality (see below)
