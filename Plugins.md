@@ -6,6 +6,7 @@ Some functionality within the base theme is more likely to be disabled/enabled o
 - [Analytics](Plugins/Analytics)
 - [Coreprint](Plugins/Coreprint)
 - [CookieConsent](Plugins/CookieConsent)
+- [GravityForms](Plugins/GravityForms)
 - [Iubenda](Plugins/Iubenda)
 - [Leaflet](Plugins/Leaflet)
 - [LoginPage](Plugins/LoginPage)
@@ -31,9 +32,9 @@ These are enabled via the `mwb/plugins/list` filter. E.g.:
  */
 add_filter( 'mwb/plugins/list', function( array $plugins ): array {
     return [
-        'AdvancedForms',
         'Analytics',
         'CookieConsent',
+        'GravityForms',
         'LoginPage',
         'PostForms',
         'RankMath',
