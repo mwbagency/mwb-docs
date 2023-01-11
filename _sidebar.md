@@ -1,6 +1,9 @@
 [Home](/)
 
-[Development Guidelines](Theme Development Guide)
+[Development Guidelines](Development Guidelines)
+- [PHP](Development-Guidelines/PHP-Code-Quality-and-Best-Practices)
+- [JavaScript](Development-Guidelines/JavaScript-Code-Quality-and-Best-Practices)
+- [SCSS/CSS](Development-Guidelines/CSS-Code-Quality-and-Best-Practices)
 
 [Blocks](Blocks)
 - [Global blocks](Blocks/Global blocks)
