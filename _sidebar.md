@@ -1,6 +1,6 @@
 [Home](/)
 
-[Theme Development Guide](Theme Development Guide)
+[Development Guidelines](Theme Development Guide)
 
 [Blocks](Blocks)
 - [Global blocks](Blocks/Global blocks)
