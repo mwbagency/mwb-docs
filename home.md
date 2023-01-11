@@ -1,4 +1,4 @@
-- [General Development Guidelines](Theme-Development-Guide)
+- [Development Guidelines](Theme-Development-Guide)
 - [Blocks](Blocks)
 - [Components](Components)
 - CPTs // TODO (overriding defaults, creating new, etc.)
