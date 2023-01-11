@@ -14,6 +14,7 @@
 - [Analytics](Plugins/Analytics)
 - [Coreprint](Plugins/Coreprint)
 - [CookieConsent](Plugins/CookieConsent)
+- [GravityForms](Plugins/GravityForms)
 - [Iubenda](Plugins/Iubenda)
 - [Leaflet](Plugins/Leaflet)
 - [LoginPage](Plugins/LoginPage)
