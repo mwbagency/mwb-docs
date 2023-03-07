@@ -1,3 +1,4 @@
+- [Deployment](Deployment)
 - [Development Guidelines](Theme-Development-Guide)
 - [Blocks](Blocks)
 - [Components](Components)
