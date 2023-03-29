@@ -1,1 +1,0 @@
-[WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) assumes the cart totals area is made up of a HTML table. This plugin provides a wrapper to ensure this element always appear within a table regardless of how the cart totals area is generally built.
